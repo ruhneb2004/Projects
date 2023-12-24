@@ -1,0 +1,40 @@
+
+.basic {
+  margin: 20px 0px;
+ height: 50px;
+ text-align: center;
+ margin-top: 60px;
+}
+
+.all-buttons {
+  height: 100px;
+  min-width: 100px;
+  border:none;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 0px;
+  background-color: rgb(247, 241, 241);
+}
+.h1 {
+  text-align: center;
+  font-weight: bold;
+}
+.cross-image, .round-image {
+  height:40px;
+  min-width: 20px;
+}
+.js-result-panel,.score-card-heading {
+  font-size: 20px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.score-card {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.reset-button {
+  border: none;
+  border-radius: 4px;
+  padding: 7px;
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  background-color: rgb(79, 192, 183);
+}
