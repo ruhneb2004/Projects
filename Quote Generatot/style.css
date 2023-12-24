@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Dancing+Script:wght@500&display=swap');
+
+.quote-box {
+  font-family: Anton;
+}
+.author {
+  font-family: Dancing Script;
+}
+body{
+  background-color: rgb(255, 230, 234);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.container {
+  border: solid rgb(255, 76, 76) 3px;
+  background-color: white;
+  height: 40vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 80%;
+  margin-top: 10%;
+  padding: 5px;
+}
+.btn1 {
+  margin-top: 20px;
+  margin-left: 500px;
+  background-color: rgb(134, 134, 255);
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 3px;
+  font-weight: bold;
+  transition: background-color, 0.15s;
+}
+.btn1:hover {
+  background-color: rgb(116, 116, 220);
+  color: rgb(255, 230, 234);
+
+}
+.btn1:active {
+  background-color: rgb(137, 137, 187);
+}
+
+
